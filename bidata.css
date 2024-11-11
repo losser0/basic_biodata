@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+body {
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f5f7fa;
+    padding: 10px;
+}
+.biodata-container {
+    max-width: 600px;
+    width: 100%;
+    margin: auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px 0; 
+    background-color: #a12626;
+    color: #fff;
+    text-align: center;
+}
+.header h1 {
+    font-size: 2em;
+    margin-bottom: 5px; 
+}
+.header .tagline {
+    font-style: italic;
+}
+.section {
+    margin-top: 10px; 
+}
+.section h2 {
+    font-size: 1.5em;
+    color: #9d2020;
+    border-bottom: 2px solid #591c1c;
+    margin-bottom: 10px;
+}
+.section p, .section ul, .section li {
+    line-height: 1.5;
+    color: #333;
+}
+ul {
+    list-style: none;
+}
